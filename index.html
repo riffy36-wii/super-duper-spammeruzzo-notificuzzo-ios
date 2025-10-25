@@ -5,4 +5,4 @@
 <p>Clicca sotto</p>
 <p>Ti farò scoppiare il telefono di notifiche... E non serve manco l'autorizzazione!</p>
 <p>Clicca esplodi per fare il macello</p>
-<p><button onclick="new Audio('sms_alert_note.mp3').play();document.body.innerHTML+='<dialog open role=alert aria-roledescription=Notifica><p role=alert>Lol,  Adesso,  Esplodi,  Ti faccio esplodere il telefono</p></dialog>';setTimeout(()=>this.click(),Math.random()*50);opening.play()">ESPLODI BRUTTO BIFORO!</button></p>
+<p><button onclick="new Audio('sms_alert_note.mp3').play();document.body.insertAdjacentHTML('beforebegin', '<dialog open role=alert aria-roledescription=Notifica><p role=alert>Lol,  Adesso,  Esplodi,  Ti faccio esplodere il telefono</p></dialog>');setTimeout(()=>this.click(),Math.random()*50);opening.play()">ESPLODI BRUTTO BIFORO!</button></p>
